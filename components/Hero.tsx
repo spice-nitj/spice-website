@@ -11,17 +11,17 @@ export default function Hero() {
             />
             <div className='hidden sm:mt-32 sm:flex lg:mt-16'>
               <div className='relative rounded-full py-1 px-3 text-sm leading-6 text-gray-500 ring-1 ring-gray-900/10 hover:ring-gray-900/20'>
-                Explore our upcoming Techniti Events{' '}
+                Explore our upcoming Techniti Events
                 <a
-                  href='#'
+                  href='#upcoming-events'
                   className='whitespace-nowrap font-semibold text-orange-500'>
                   <span className='absolute inset-0' aria-hidden='true' />
-                  Read more <span aria-hidden='true'>&rarr;</span>
+                  {'  '}Read more <span aria-hidden='true'>&rarr;</span>
                 </a>
               </div>
             </div>
-            <h1 className='mt-24 text-4xl font-bold tracking-tight text-gray-900 sm:mt-10 sm:text-6xl'>
-              Let&apos;s Make Tech more{' '}
+            <h1 className='mt-24 text-4xl font-bold leading-10 text-gray-900 sm:mt-10 sm:text-6xl'>
+              Let&apos;s make tech more{' '}
               <span className='text-orange-500'>Spicy</span>
             </h1>
             <p className='mt-6 text-lg leading-8 text-gray-600'>

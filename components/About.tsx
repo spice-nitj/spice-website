@@ -1,4 +1,4 @@
-import { UsersIcon, WrenchIcon } from '@heroicons/react/24/outline'
+import { WrenchScrewdriverIcon } from '@heroicons/react/24/outline'
 
 export default function About() {
   return (
@@ -14,7 +14,7 @@ export default function About() {
         <div className='mx-auto max-w-2xl lg:mr-0 lg:ml-auto lg:w-1/2 lg:max-w-none lg:pl-10'>
           <div>
             <div className='flex h-12 w-12 items-center justify-center rounded-md bg-orange-500 text-white'>
-              <WrenchIcon className='h-6 w-6' aria-hidden='true' />
+              <WrenchScrewdriverIcon className='h-6 w-6' aria-hidden='true' />
             </div>
           </div>
           <h2 className='mt-6 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl'>

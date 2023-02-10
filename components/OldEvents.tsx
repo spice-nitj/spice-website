@@ -34,11 +34,18 @@ export default function OldEvents() {
         <div className='mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32'>
           <div className='text-center'>
             <h2 className='text-3xl font-bold mb-5 tracking-tight text-gray-900 sm:text-4xl'>
-              From the blog
+              Recents Events
             </h2>
             <p className='mx-auto mt-3 max-w-2xl text-xl text-gray-500 sm:mt-4'>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa
-              libero labore natus atque, ducimus sed.
+              Some of our recent sessions that we have conducted. We have
+              conducted many more events so far. Please visit our{' '}
+              {/* Change instagram link here */}
+              <a
+                href='https://www.instagram.com/spice-nitj/'
+                className='font-semibold text-orange-500 hover:text-orange-600'>
+                Instagram Page
+              </a>{' '}
+              to see more.
             </p>
           </div>
 
