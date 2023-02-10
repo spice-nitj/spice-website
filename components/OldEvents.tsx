@@ -32,7 +32,15 @@ export default function OldEvents() {
     <div className='bg-gray-50'>
       <div className='mx-auto max-w-7xl px-4 sm:px-6 lg:px-8'>
         <div className='mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32'>
-          <h2 className='text-2xl font-bold text-gray-900'>Collections</h2>
+          <div className='text-center'>
+            <h2 className='text-3xl font-bold mb-5 tracking-tight text-gray-900 sm:text-4xl'>
+              From the blog
+            </h2>
+            <p className='mx-auto mt-3 max-w-2xl text-xl text-gray-500 sm:mt-4'>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa
+              libero labore natus atque, ducimus sed.
+            </p>
+          </div>
 
           <div className='mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0'>
             {callouts.map((callout) => (
