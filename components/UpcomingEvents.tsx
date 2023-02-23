@@ -47,7 +47,7 @@ export default function UpcomingEvents() {
         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">Our Faculty Advisor</h5>
         <p className="mb-3 font-normal text-gray-600 ">
         We have come a long way since last few years, but there is a long way to go, heights to reach and responsibilities to carry. This institute has germinated various seeds in the field of Instrumentation and Control.
-         With the launch of events under such a dedicated club, we aim to grow at an exponential pace. But as it quoted "Facts not at all matter, Perception is Everything ".
+         With the launch of events under such a dedicated club, we aim to grow at an exponential pace. But as it quoted &quot; Facts not at all matter, Perception is Everything &quot;.
         </p>
         <p className='text-sm font-medium text-orange-600'>
                     <span>D.r Afzal Sikander</span>
