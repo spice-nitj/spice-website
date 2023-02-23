@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 const people = [
   {
     name: 'Arpit Jha',
@@ -82,10 +84,12 @@ export default function Team() {
           className='mx-auto mt-20 grid max-w-2xl grid-cols-2 gap-y-16 gap-x-8 text-center sm:grid-cols-3 md:grid-cols-4 lg:mx-0 lg:max-w-none lg:grid-cols-5 xl:grid-cols-6'>
           {people.map((person, index) => (
             <li key={index}>
-              <img
+              <Image
                 className='mx-auto h-32 w-32 rounded-full drop-shadow-lg'
                 src={person.imageUrl}
                 alt=''
+                height={400}
+                width={400}
               />
               <h3 className='mt-6 text-base font-semibold leading-7 drop-shadow-2xl tracking-tight text-gray-900'>
                 {person.name}

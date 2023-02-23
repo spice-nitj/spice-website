@@ -12,7 +12,7 @@
   }
   ```
 */
-
+import Image from "next/image"
 
 
 export default function CTA() {
@@ -25,42 +25,54 @@ export default function CTA() {
     <div className="-m-1 flex flex-wrap md:-m-2">
       <div className="flex w-1/2 flex-wrap">
         <div className="w-1/2 p-1 md:p-2 ">
-          <img
+          <Image
             alt="gallery"
             className="block h-full w-full rounded-lg object-cover object-center shadow-md shadow-md"
-            src="/images/events/01.jpg" />
+            src="/images/events/01.jpg" 
+            width={400}
+            height={400}/>
         </div>
         <div className="w-1/2 p-1 md:p-2">
-          <img
+          <Image
             alt="gallery"
             className="block h-full w-full rounded-lg object-cover object-center shadow-md"
-            src="/images/events/02.jpg" />
+            src="/images/events/02.jpg" 
+            width={400}
+            height={400}/>
         </div>
         <div className="w-full p-1 md:p-2">
-          <img
+          <Image
             alt="gallery"
             className="block h-full w-full rounded-lg object-cover object-center shadow-md"
-            src="/images/events/03.jpg" />
+            src="/images/events/03.jpg"
+            width={400}
+            height={400} />
         </div>
       </div>
       <div className="flex w-1/2 flex-wrap">
         <div className="w-full p-1 md:p-2">
-          <img
+          <Image
             alt="gallery"
             className="block h-full w-full rounded-lg object-cover object-center shadow-md"
-            src="/images/events/04.jpg" />
+            src="/images/events/04.jpg" 
+            width={400}
+            height={400}/>
         </div>
         <div className="w-1/2 p-1 md:p-2">
-          <img
+          <Image
             alt="gallery"
             className="block h-full w-full rounded-lg object-cover object-center shadow-md"
-            src="/images/events/05.jpg" />
+            src="/images/events/05.jpg"
+            width={400}
+            height={400} />
         </div>
         <div className="w-1/2 p-1 md:p-2">
-          <img
+          <Image
             alt="gallery"
             className="block h-full w-full rounded-lg object-cover object-center shadow-md"
-            src="/images/events/06.jpg" />
+            src="/images/events/06.jpg"
+            width={400}
+            height={400} />
         </div>
       </div>
     </div>
