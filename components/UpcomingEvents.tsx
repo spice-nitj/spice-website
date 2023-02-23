@@ -1,66 +1,67 @@
 const posts = [
   {
-    title: 'Micro RoboWars',
-    href: '#',
-    category: { name: 'Article', href: '#' },
-    description:
-      "Join us for the highly anticipated event of the year - Micro RoboWars! This exciting competition will bring together some of the brightest minds in the field of instrumentation and control engineering to showcase their skills and creativity in building the next generation of micro robots. Participants will have the opportunity to demonstrate their knowledge and expertise in a variety of categories, including speed, maneuverability, and endurance. With prizes and awards for the top performers, Micro RoboWars is a must-attend event for anyone interested in the future of robotics and automation. So if you're a student, engineer, or simply a technology enthusiast, don't miss this opportunity to be a part of the next big thing in the field of instrumentation and control engineering. Register today and be a part of the Micro RoboWars experience! ",
-    date: 'Mar 16, 2020',
-    datetime: '2020-03-16',
-    imageUrl:
-      'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80',
-    readingTime: '6 min',
-    author: {
-      name: 'Roel Aufderehar',
-      href: '#',
-      imageUrl:
-        'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-    },
-  },
-  {
     title: 'Tricky Circuits',
-    href: '#',
+    href: 'https://forms.gle/xtwquAbAgBkwD64s7',
     category: { name: 'Video', href: '#' },
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.',
+      "Tricky Circuits is a competition where participants will be given circuits consisting of resistors, gates, and other electronic devices, and they must determine the output. The difficulty of the circuits increases as the event progresses.",
     date: 'Mar 10, 2020',
-    datetime: '2020-03-10',
+    datetime: '2023-02-25',
     imageUrl:
-      'https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80',
+      '/images/events/robohunt.jpg',
     readingTime: '4 min',
     author: {
       name: 'Brenna Goyette',
-      href: '#',
+      href: 'https://forms.gle/xtwquAbAgBkwD64s7',
       imageUrl:
-        'https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+        '/images/events/robohunt.jpg',
     },
   },
   {
-    title: 'Line Follower Robot',
-    href: '#',
+    title: 'Robo Hunt',
+    href: 'https://forms.gle/xtwquAbAgBkwD64s7',
     category: { name: 'Case Study', href: '#' },
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.',
+      "Robo Hunt is a competition where teams will write the code of controller of small robots, known as bots, that are less than 6 kg in weight and no larger than 20x20x20 cm in size. The goal of the competition is for the teams' bots to successfully navigate a path and reach endpoints where balls are placed. The concept of the competition closely resembles that of a line-following robot",
     date: 'Feb 12, 2020',
-    datetime: '2020-02-12',
+    datetime: '2023-02-26',
     imageUrl:
-      'https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80',
+      '/images/events/trickycircuit.jpg',
     readingTime: '11 min',
     author: {
       name: 'Daniela Metz',
-      href: '#',
+      href: 'https://forms.gle/xtwquAbAgBkwD64s7',
       imageUrl:
-        'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+        '/images/events/trickycircuit.jpg',
     },
   },
 ]
 
 export default function UpcomingEvents() {
   return (
+    <>
+    
+<a href="#" className=" flex flex-col items-center mx-auto bg-white mt-20 rounded-xl mb-10 shadow md:flex-row w-[80%] shadow-xl ">
+    <img className="object-cover w-full rounded-t-lg h-96  md:w-[40%] md:rounded-none md:rounded-l-lg" src="https://spice-nitj.web.app/images/afzal_sir2.png" alt=""/>
+    <div className="flex flex-col justify-between p-4 leading-normal">
+        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">Our Faculty Advisor</h5>
+        <p className="mb-3 font-normal text-gray-600 ">
+        We have come a long way since last few years, but there is a long way to go, heights to reach and responsibilities to carry. This institute has germinated various seeds in the field of Instrumentation and Control.
+         With the launch of events under such a dedicated club, we aim to grow at an exponential pace. But as it quoted "Facts not at all matter, Perception is Everything ".
+        </p>
+        <p className='text-sm font-medium text-orange-600'>
+                    <span>D.r Afzal Sikander</span>
+                  </p>
+    </div>
+</a>
+
     <div
       id='upcoming-events'
       className='relative bg-gray-50 px-6 pt-16 pb-20 lg:px-8 lg:pt-24 lg:pb-28'>
       <div className='absolute inset-0'>
+        
+       
+
         <div className='h-1/3 bg-white sm:h-2/3' />
       </div>
       <div className='relative mx-auto max-w-7xl'>
@@ -77,11 +78,11 @@ export default function UpcomingEvents() {
             Join Us for Our Upcoming Events and Workshops
           </p>
         </div>
-        <div className='mx-auto mt-12 grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-3'>
+        <div className='mx-auto mt-12 grid max-w-lg gap-5 lg:max-w-none justify-around md:grid-flow-col'>
           {posts.map((post) => (
             <div
               key={post.title}
-              className='flex flex-col overflow-hidden rounded-xl shadow-lg'>
+              className='flex flex-col md:w-[30vw] overflow-hidden rounded-xl shadow-lg'>
               <div className='flex-shrink-0'>
                 <img
                   className='h-48 w-full object-cover'
@@ -127,11 +128,14 @@ export default function UpcomingEvents() {
                     </div>
                   </div>
                 </div> */}
+                <a href={post.href}><button type="button" className="mt-5 text-white bg-orange-500 hover:bg-orange-700  font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2  w-[40%] shadow-md">Register</button>
+                </a>
               </div>
             </div>
           ))}
         </div>
       </div>
     </div>
+    </>
   )
 }

@@ -12,22 +12,52 @@ const people = [
     imageUrl: '/team/bhaskar.jpg',
   },
   {
-    name: 'Divyanshi',
-    role: 'Content',
+    name: 'Rohit Yadav',
+    role: 'Web dev head',
     year: '3rd Year',
-    imageUrl: '/team/divyanshi.jpg',
+    imageUrl: '/team/rohit.jpg',
   },
   {
     name: 'Gautam Singla',
-    role: 'Web dev',
+    role: 'Web dev Co-head',
     year: '3rd Year',
     imageUrl: '/team/gautam.jpg',
   },
   {
+    name: 'Aaryan Bhardwaj',
+    role: 'Mentorship head',
+    year: '3rd Year',
+    imageUrl: '/team/nayraa.jpg',
+  },
+  {
+    name: 'Manish Gupta',
+    role: 'Graphics head',
+    year: '3rd Year',
+    imageUrl: '/team/mg.jpg',
+  },
+  {
+    name: 'Yash Rastogi',
+    role: 'Management Head',
+    year: '3rd Year',
+    imageUrl: '/team/yash.jpg',
+  },
+  {
+    name: 'Ankit Kumar',
+    role: 'mentorship',
+    year: '3rd Year',
+    imageUrl: '/team/ankit.jpg',
+  },
+  {
     name: 'S.Gargee',
-    role: 'Content',
+    role: 'Content head',
     year: '3rd Year',
     imageUrl: '/team/gargee.jpg',
+  },
+  {
+    name: 'Divyanshi',
+    role: 'Social Media head',
+    year: '3rd Year',
+    imageUrl: '/team/divyanshi.jpg',
   },
   // More people...
 ]
@@ -53,14 +83,14 @@ export default function Team() {
           {people.map((person, index) => (
             <li key={index}>
               <img
-                className='mx-auto h-24 w-24 rounded-full'
+                className='mx-auto h-32 w-32 rounded-full drop-shadow-lg'
                 src={person.imageUrl}
                 alt=''
               />
-              <h3 className='mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900'>
+              <h3 className='mt-6 text-base font-semibold leading-7 drop-shadow-2xl tracking-tight text-gray-900'>
                 {person.name}
               </h3>
-              <p className='text-sm leading-6 text-gray-600'>
+              <p className='text-sm leading-6 text-gray-600 '>
                 {person.role} / {person.year}
               </p>
             </li>

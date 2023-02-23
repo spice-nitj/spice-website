@@ -7,6 +7,7 @@ import OldEvents from '@/components/OldEvents'
 import UpcomingEvents from '@/components/UpcomingEvents'
 import About from '@/components/About'
 import Sponsors from '@/components/Sponsors'
+
 export default function Home() {
   return (
     <>

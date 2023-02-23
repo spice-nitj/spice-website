@@ -28,7 +28,7 @@ export default function About() {
             automotive, defense, and energy, and provides them with the
             resources and support they need to succeed.
           </p>
-          <div className='mt-8 overflow-hidden'>
+          {/* <div className='mt-8 overflow-hidden'>
             <dl className='-mx-8 -mt-8 flex flex-wrap'>
               <div className='flex flex-col px-8 pt-8'>
                 <dt className='order-2 text-base font-medium text-gray-500'>
@@ -55,7 +55,7 @@ export default function About() {
                 </dd>
               </div>
             </dl>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

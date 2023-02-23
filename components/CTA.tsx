@@ -12,37 +12,59 @@
   }
   ```
 */
+
+
+
 export default function CTA() {
   return (
-    <div className='bg-gray-50'>
-      <div className='mx-auto max-w-7xl py-16 px-6 lg:px-8'>
-        <div className='overflow-hidden rounded-lg bg-orange-500 shadow-xl lg:grid lg:grid-cols-2 lg:gap-4'>
-          <div className='px-6 pt-10 pb-12 sm:px-16 sm:pt-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20'>
-            <div className='lg:self-center'>
-              <h2 className='text-3xl font-bold tracking-tight text-white sm:text-4xl'>
-                <span className='block'>Ready to dive in?</span>
-                <span className='block'>Start your free trial today.</span>
-              </h2>
-              <p className='mt-4 text-lg leading-6 text-orange-200'>
-                Ac euismod vel sit maecenas id pellentesque eu sed consectetur.
-                Malesuada adipiscing sagittis vel nulla nec.
-              </p>
-              <a
-                href='#'
-                className='mt-8 inline-flex items-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-orange-600 shadow hover:bg-orange-50'>
-                Sign up for free
-              </a>
-            </div>
-          </div>
-          <div className='aspect-w-5 aspect-h-3 -mt-6 md:aspect-w-2 md:aspect-h-1'>
-            <img
-              className='opacity-70 translate-x-6 translate-y-6 transform rounded-md object-cover object-left-top sm:translate-x-16 lg:translate-y-20'
-              src='/logo/spice-logo.svg'
-              alt='App screenshot'
-            />
-          </div>
+<section className="overflow-hidden text-neutral-700">
+<h2 className='text-3xl text-center  font-bold mb-5 tracking-tight text-gray-900 sm:text-4xl'>
+              Gallery
+            </h2>
+  <div className="container mx-auto px-5 py-2 lg:px-32 lg:pt-24">
+    <div className="-m-1 flex flex-wrap md:-m-2">
+      <div className="flex w-1/2 flex-wrap">
+        <div className="w-1/2 p-1 md:p-2 ">
+          <img
+            alt="gallery"
+            className="block h-full w-full rounded-lg object-cover object-center shadow-md shadow-md"
+            src="/images/events/01.jpg" />
+        </div>
+        <div className="w-1/2 p-1 md:p-2">
+          <img
+            alt="gallery"
+            className="block h-full w-full rounded-lg object-cover object-center shadow-md"
+            src="/images/events/02.jpg" />
+        </div>
+        <div className="w-full p-1 md:p-2">
+          <img
+            alt="gallery"
+            className="block h-full w-full rounded-lg object-cover object-center shadow-md"
+            src="/images/events/03.jpg" />
+        </div>
+      </div>
+      <div className="flex w-1/2 flex-wrap">
+        <div className="w-full p-1 md:p-2">
+          <img
+            alt="gallery"
+            className="block h-full w-full rounded-lg object-cover object-center shadow-md"
+            src="/images/events/04.jpg" />
+        </div>
+        <div className="w-1/2 p-1 md:p-2">
+          <img
+            alt="gallery"
+            className="block h-full w-full rounded-lg object-cover object-center shadow-md"
+            src="/images/events/05.jpg" />
+        </div>
+        <div className="w-1/2 p-1 md:p-2">
+          <img
+            alt="gallery"
+            className="block h-full w-full rounded-lg object-cover object-center shadow-md"
+            src="/images/events/06.jpg" />
         </div>
       </div>
     </div>
+  </div>
+</section>
   )
 }
