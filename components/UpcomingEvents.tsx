@@ -41,7 +41,7 @@ export default function UpcomingEvents() {
   return (
     <>
     
-<a href="#" className=" flex flex-col items-center mx-auto bg-white mt-20 rounded-xl mb-10 shadow md:flex-row w-[80%] shadow-xl ">
+<a href="#" className=" flex flex-col items-center mx-auto bg-white mt-20 rounded-xl mb-10 shadow md:flex-row w-[95%] md:w-[80%] shadow-xl ">
     <img className="object-cover w-full rounded-t-lg h-96  md:w-[40%] md:rounded-none md:rounded-l-lg" src="https://spice-nitj.web.app/images/afzal_sir2.png" alt=""/>
     <div className="flex flex-col justify-between p-4 leading-normal">
         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">Our Faculty Advisor</h5>

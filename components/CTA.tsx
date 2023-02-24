@@ -23,8 +23,8 @@ export default function CTA() {
             </h2>
   <div className="container mx-auto px-5 py-2 lg:px-32 lg:pt-24">
     <div className="-m-1 flex flex-wrap md:-m-2">
-      <div className="flex w-1/2 flex-wrap">
-        <div className="w-1/2 p-1 md:p-2 ">
+      <div className="flex md:w-1/2 flex-wrap">
+        <div className="md:w-1/2 p-1 md:p-2 ">
           <Image
             alt="gallery"
             className="block h-full w-full rounded-lg object-cover object-center shadow-md shadow-md"
@@ -32,7 +32,7 @@ export default function CTA() {
             width={400}
             height={400}/>
         </div>
-        <div className="w-1/2 p-1 md:p-2">
+        <div className="md:w-1/2 p-1 md:p-2">
           <Image
             alt="gallery"
             className="block h-full w-full rounded-lg object-cover object-center shadow-md"
@@ -49,7 +49,7 @@ export default function CTA() {
             height={400} />
         </div>
       </div>
-      <div className="flex w-1/2 flex-wrap">
+      <div className="flex w-full md:w-1/2 flex-wrap">
         <div className="w-full p-1 md:p-2">
           <Image
             alt="gallery"
@@ -58,7 +58,7 @@ export default function CTA() {
             width={400}
             height={400}/>
         </div>
-        <div className="w-1/2 p-1 md:p-2">
+        <div className="md:w-1/2 p-1 md:p-2">
           <Image
             alt="gallery"
             className="block h-full w-full rounded-lg object-cover object-center shadow-md"
@@ -66,7 +66,7 @@ export default function CTA() {
             width={400}
             height={400} />
         </div>
-        <div className="w-1/2 p-1 md:p-2">
+        <div className="md:w-1/2 p-1 md:p-2">
           <Image
             alt="gallery"
             className="block h-full w-full rounded-lg object-cover object-center shadow-md"
